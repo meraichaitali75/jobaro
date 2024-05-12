@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Jobaro | Chat</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,700|Crimson+Text:400,400i" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Select2 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="site-wrap">
+    <div class="site-navbar">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="logo">
+            <div class="site-logo">
+              <a href="index.html" class="js-logo-clone"><img src="./images/logo.svg" width="160"></a>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="main-nav d-none d-lg-block">
+              <nav class="site-navigation text-right text-md-center" role="navigation">
+                <ul class="site-menu js-clone-nav d-none d-lg-block">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="friend_list.html">My Network</a></li></li>
+                  <li><a href="services.html">Find a service</a></li></li>
+                  <li><a href="activity.html">Activity</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="icons d-flex align-items-center user-dropdown">
+              <div class="dropdown user-dropdown"  ><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"><img src="./images/user.jpg">John</a>
+                <div class="dropdown-menu not-drp-menu">
+                  <a class="dropdown-item" href="user_profile.html">Profile</a>
+                  <a class="dropdown-item" href="account.html">Account Setting</a>
+                  <a class="dropdown-item" href="post-job.html">Creat Post</a>
+                  <a class="dropdown-item" href="wallet.html">Wallet</a>
+                  <a class="dropdown-item" href="login.html">Logout</a>
+                </div>
+              </div>
+              <a href="javascript:;">
+                <div class="dropdown center notification icon noty-icn-kki notification-dropdown">
+                  <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" title="Notification"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                  <div class="notification-number">2</div>
+                  <div class="dropdown-menu not1-drf-menu">
+                    <p class="not-p">Notifications</p>
+                    <div class="notification-boxp">
+                      <div class="d-flex not-block-pp">
+                        <img src="./images/user.svg">
+                        <div>
+                          <h4>Randy Dean</h4>
+                          <span>Add a new post</span>
+                        </div>
+                      </div>
+                      <div class="d-flex not-block-pp">
+                        <img src="./images/user2.svg">
+                        <div>
+                          <h4>Randy Dean</h4>
+                          <span>Sent you a message</span>
+                        </div>
+                      </div>
+                      <div class="d-flex not-block-pp">
+                        <img src="./images/user2.svg">
+                        <div>
+                          <h4>Randy Dean</h4>
+                          <span>Sent you a message</span>
+                        </div>
+                      </div>
+                      <div class="d-flex not-block-pp">
+                        <img src="./images/user2.svg">
+                        <div>
+                          <h4>Randy Dean</h4>
+                          <span>Sent you a message</span>
+                        </div>
+                      </div>
+                      <div class="d-flex not-block-pp">
+                        <img src="./images/user2.svg">
+                        <div>
+                          <h4>Randy Dean</h4>
+                          <span>Sent you a message</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="chat.html" title="Message">
+                <div class="center notification icon">
+                  <i class="fa fa-comments" aria-hidden="true"></i>
+                  <div class="notification-number">2</div>
+                </div>
+              </a>
+              <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><img src="./images/menu.svg" width="20"><!-- <span
+                  class="icon-menu"></span> --></a>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+
+    <section class="chat-section mt-5">
+      <div class="container">
+        <div class="messaging">
+          <div class="inbox_msg">
+            <div class="inbox_people">
+              <div class="headind_srch">
+                <div class="srch_bar">
+                  <div class="stylish-input-group">
+                    <input type="text" class="search-bar"  placeholder="Search" >
+                    <span class="input-group-addon">
+                    <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+                    </span> </div>
+                </div>
+              </div>
+              <div class="inbox_chat">
+                <div class="chat_list active_chat tab-heading-01 active-tab">
+                  <div class="chat_people">
+                    <div class="chat_img"> <img src="./images/chat-user.svg" alt="sunil"> </div>
+                    <div class="chat_ib">
+                      <h5>Keanu Williamson <span class="chat_date">2:00PM</span></h5>
+                      <p>Hello ?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat_list tab-heading-01">
+                  <div class="chat_people">
+                    <div class="chat_img"> <img src="./images/chat-user2.svg" alt="sunil"> </div>
+                    <div class="chat_ib active">
+                      <h5>Harry Weber <span class="chat_date">2:00PM</span></h5>
+                      <p>What you are eating today?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat_list tab-heading-01">
+                  <div class="chat_people">
+                    <div class="chat_img"> <img src="./images/chat-user.svg" alt="sunil"> </div>
+                    <div class="chat_ib">
+                      <h5>Keanu Williamson <span class="chat_date">2:00PM</span></h5>
+                      <p>Hello ?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat_list tab-heading-01">
+                  <div class="chat_people">
+                    <div class="chat_img"> <img src="./images/chat-user2.svg" alt="sunil"> </div>
+                    <div class="chat_ib active">
+                      <h5>Harry Weber <span class="chat_date">2:00PM</span></h5>
+                      <p>What you are eating today?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat_list tab-heading-01">
+                  <div class="chat_people">
+                    <div class="chat_img"> <img src="./images/chat-user.svg" alt="sunil"> </div>
+                    <div class="chat_ib">
+                      <h5>Keanu Williamson <span class="chat_date">2:00PM</span></h5>
+                      <p>Hello ?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat_list tab-heading-01">
+                  <div class="chat_people">
+                    <div class="chat_img"> <img src="./images/chat-user.svg" alt="sunil"> </div>
+                    <div class="chat_ib">
+                      <h5>Keanu Williamson <span class="chat_date">2:00PM</span></h5>
+                      <p>Hello ?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat_list tab-heading-01">
+                  <div class="chat_people">
+                    <div class="chat_img"> <img src="./images/chat-user.svg" alt="sunil"> </div>
+                    <div class="chat_ib">
+                      <h5>Keanu Williamson <span class="chat_date">2:00PM</span></h5>
+                      <p>Hello ?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat_list tab-heading-01">
+                  <div class="chat_people">
+                    <div class="chat_img"> <img src="./images/chat-user.svg" alt="sunil"> </div>
+                    <div class="chat_ib">
+                      <h5>Keanu Williamson <span class="chat_date">2:00PM</span></h5>
+                      <p>Hello ?</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mesgs">
+              <div class="user-active-box">
+                <div class="d-flex align-items-center">
+                  <div class="position-relative">
+                    <img src="./images/chat-user.svg">
+                    <div class="center notification icon noty-icn-kki">
+                      <div class="notification-number"></div>
+                    </div>
+                    <!-- <i class="fa fa-circle" aria-hidden="true"></i> -->
+                  </div>
+                  <h4>Jacob Fry</h4>
+                </div>
+                <button class="send-off modal-trigger" data-modal-id="modal1" >Send Offer</button>
+              </div>
+              <div class="msg_history">
+                <div class="incoming_msg">
+                  <div class="incoming_msg_img"> <img src="./images/chat-user3.svg" alt="sunil"> </div>
+                  <div class="received_msg">
+                    <div class="received_withd_msg">
+                      <p>Hi Cassie! Would you be available for a interview next week? 😁</p>
+                      <span class="time_date"> 8:07 AM</span></div>
+                  </div>
+                </div>
+                <div class="outgoing_msg">
+                  <div class="sent_msg">
+                    <p>Hi Ashley! Yes with pleasure! Do you prefer when?</p>
+                    <div class="order-box-pl order-box-pl-out">
+                      <h2>You sent a job offer !!</h2>
+                      <h2>Hey i will do this job quickly as discussed i will do it in 500 USD.</h2>
+                      <h2>Price: 500 USD</h2>
+                      <h2>Delivery Time: 10 Day</h2>
+                      <a href="wallet.html"><button>Withdraw Offer</button></a>
+                    </div>
+                    <span class="time_date"> 8:10 AM</span>
+                  </div>
+                </div>
+                <div class="incoming_msg">
+                  <div class="incoming_msg_img"> <img src="./images/chat-user3.svg" alt="sunil"> </div>
+                  <div class="received_msg">
+                    <div class="received_withd_msg">
+                      <div class="order-box-pl">
+                        <h2>You received offer from XYZ</h2>
+                        <h2>Hey i will do this job quickly as discussed i will do it in 500 USD.</h2>
+                        <h2>Price: 500 USD</h2>
+                        <h2>Delivery Time: 10 Day</h2>
+                        <a href="payment.html"><button>Order Now</button></a>
+                      </div>
+                      <span class="time_date"> 8:07 AM</span>
+                  </div>
+                </div>
+                <!-- <div class="outgoing_msg">
+                  <div class="sent_msg">
+                    <img src="./images/chat-img.svg">
+                    <p>By the way, did not you see my Job I present to you Sheldon! 😁</p>
+                    <span class="time_date"> 11:01 AM </span> </div>
+                </div> -->
+                <!-- <div class="incoming_msg">
+                  <div class="incoming_msg_img"> <img src="./images/chat-user3.svg" alt="sunil"> </div>
+                  <div class="received_msg">
+                    <div class="received_withd_msg">
+                      <img src="./images/barber-img2.jpg">
+                      <p>Hmm ... Tuesday night, around 19 hours is good for you?</p>
+                      <span class="time_date"> 11:01 AM</span></div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="type_msg">
+                <div class="input_msg_write">
+                  <input type="text" class="write_msg" placeholder="Type something" />
+                  <img src="./images/emoji.svg" class="emoji-icn">
+                  <div id="button">
+                    <img src="./images/attachment.svg" class="attc-icn emoji-icn">
+                    <input id="fileInput" type="file" style="display: none;">
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+            <div class="block-7">
+              <a href="index.html"><img src="./images/logo.svg" width="150" class="mb-3"></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quae reiciendis distinctio voluptates
+                sed dolorum excepturi iure eaque, aut unde.</p>
+              <div class="d-flex app-icn">
+                <a href="javascript:;"><img src="./images/andorid-store.png"></a>
+                <a href="javascript:;"><img src="./images/apple-store.png"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
+            <h3 class="footer-heading mb-4">Quick Links</h3>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="friend_list.html">My Network</a></li></li>
+              <li><a href="service.html">Find a service</a></li></li>
+              <li><a href="activity.html">Activity</a></li>
+              <li><a href="post-job.html">Post Job</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="block-5 mb-5">
+              <h3 class="footer-heading mb-4">Contact Info</h3>
+              <ul class="list-unstyled">
+                <li class="address d-flex align-items-baseline">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="ml-3">203 Fake St. Mountain View, San Francisco, California, USA</span>
+                </li>
+                <li class="phone d-flex align-items-baseline address">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <a href="tel://23923929210" class="ml-3">+2 392 3929 210</a>
+                </li>
+                <li class="email d-flex align-items-baseline address">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span class="ml-3">emailaddress@domain.com</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+        </div>
+      </div>
+    </footer>
+
+
+ <!-- model -->
+  <div class="modal-wrapper post-job-wrapper login-section chat-model-wraper" id="modal1" >
+    <section class="modal-window p-0">
+      <header class="modal-header p-0">
+        <div class="otp-block  post-job">
+          <p>Create Job Offer</p>
+          <div class="login-block text-left post-job p-0">
+            <form class="p-0">
+              <div class="group mb-0">      
+               <textarea placeholder="Describe your offer"></textarea>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label class="m-0"></label>
+              </div>
+              <div class="group mb-0">
+                <div class="jumbotron mb-0">
+                  <div class="single-drop">
+                    <h6 class="pb-0 pl-0">Price</h6>
+                      <select id="single" class="js-states form-control">
+                        <option>$1000</option>
+                        <option>$9000</option>
+                        <option>$2000</option>
+                        <option>$5000</option>
+                        <option>$3000</option>
+                        <option>$4000</option>
+                        <option>$8000</option>
+                        <option>$9000</option>
+                      </select>
+                  </div>
+                </div>
+              </div>
+              <div class="group mb-0">
+                <div class="jumbotron">
+                  <div class="single-drop">
+                    <h6 class="pb-0">Delivery Time</h6>
+                      <select id="single1" class="js-states form-control">
+                        <option>1 Day</option>
+                        <option>2 Day</option>
+                        <option>3 Day</option>
+                        <option>4 Day</option>
+                        <option>5 Day</option>
+                        <option>6 Day</option>
+                      </select>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <button class="modal-trigger mt-0" data-modal-id="modal2" id="verify1">Send Offer</button>
+        </div>
+            <button type="button" class="close close-modal-button" class="close-modal-button"
+            aria-label="Close modal window">
+              <span aria-hidden="true">&times;</span>
+          </button>
+      </header>
+    </section>
+  </div>
+  <!-- model end -->
+
+
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Select2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script>
+      $("#single").select2({
+          placeholder: "Select Categories",
+          allowClear: true
+      });
+      $("#single1").select2({
+          placeholder: "Select Categories",
+          allowClear: true
+      });
+      $("#single2").select2({
+          placeholder: "Select Categories",
+          allowClear: true
+      });
+      $("#multiple").select2({
+          placeholder: "Type Skills",
+          allowClear: true
+      });
+    </script>
+<script>
+    document.getElementById('button').addEventListener('click', () => {
+  document.getElementById('fileInput').click()
+})
+    document.getElementById('button1').addEventListener('click', () => {
+  document.getElementById('fileInput1').click()
+})
+
+</script>
+
+<script>
+jQuery(document).ready(function(){
+  jQuery('.tab-heading-01').click(function(event){
+      jQuery('.active-tab').removeClass('active-tab');
+      jQuery(this).addClass('active-tab');
+      event.preventDefault();
+  });
+});
+</script>
+
+<script>
+  // Stack of modals
+let currentlyOpenModals = [];
+
+const noModalsOpen = () => !currentlyOpenModals.length;
+
+const openModal = modalId => {
+  const modalWrapper = document.getElementById(modalId);
+  modalWrapper.classList.add("visible");
+  currentlyOpenModals.push(modalWrapper);
+};
+
+// By definition, it's always the topmost modal that will be closed first
+const closeTopmostModal = () => {
+  if (noModalsOpen()) {
+    return;
+  }
+
+  const modalWrapper = currentlyOpenModals[currentlyOpenModals.length - 1];
+  modalWrapper.classList.remove("visible");
+  currentlyOpenModals.pop();
+};
+
+const modalTriggers = document.querySelectorAll(".modal-trigger");
+modalTriggers.forEach(modalTrigger => {
+  modalTrigger.addEventListener("click", clickEvent => {
+    const trigger = clickEvent.target;
+    const modalId = trigger.getAttribute("data-modal-id");
+    openModal(modalId);
+  });
+});
+
+// Otherwise, clicking the content of a modal will propagate the click to the modal wrapper,
+// and that will close the entire thing. That's not what we want!
+document.querySelectorAll(".modal-window").forEach(modal => {
+  modal.addEventListener("click", clickEvent => {
+    clickEvent.stopPropagation();
+  });
+});
+
+const modalWrappers = document.querySelectorAll(".modal-wrapper");
+modalWrappers.forEach(modalWrapper => {
+  modalWrapper.addEventListener("click", () => {
+    closeTopmostModal();
+  });
+});
+
+document.querySelectorAll(".close-modal-button").forEach(closeModalButton => {
+  closeModalButton.addEventListener("click", () => {
+    closeTopmostModal();
+  });
+});
+
+document.body.addEventListener("keyup", keyEvent => {
+  if (keyEvent.key === "Escape") {
+    closeTopmostModal();
+  }
+});
+
+</script>
+</body>
+
+</html>
